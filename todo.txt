@@ -1,0 +1,18 @@
+- [css] wykorzystano różne właściwości i/lub wygląd jest atrakcyjny i czytelny dla odbiorcy
+: make sure new types are visible.
+: do an animation.
+
+- [xml-schema] użyto sekwencji i alternatywy oraz dowolnej kolejności (tylko w XML Schema) wystąpienia elementów
+/ dow kolejnosć - done
+- [xml-schema] poprawnie zdefiniowano grupę elementów/atrybutów i użyto ją w schemacie
+/ done
+- [xml-schema] użyto więcej niż jednej własnej przestrzeni nazw
+/ done
+- [xml] da się wyodrębnić więcej niż 5 (min. 6) typów prostych dla danych
+/ done
+- [extra] użyto dodatkowych elementów (nie wymienionych powyżej) do realizacji zadania
+/ done - choice, vc:minVersion="1.1"
+- [xml-schema] dla wszystkich typów liczbowych zdefiniowano własne definicje/typy np. poprzez określenie zakresów/postaci
+/ done
+- [xml-schema] zdefiniowano sensowne listę wartości oraz unię
+/ done

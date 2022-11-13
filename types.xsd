@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="types"
+>
+
+	<xs:simpleType name="position">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Programmer" />
+			<xs:enumeration value="Desiner" />
+			<xs:enumeration value="Level-Designer" />
+		</xs:restriction>
+  	</xs:simpleType>
+
+	<xs:simpleType name="nation">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Poland" />
+			<xs:enumeration value="UK" />
+			<xs:enumeration value="Germany" />
+		</xs:restriction>
+  	</xs:simpleType>
+
+	<xs:simpleType name="currency">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PLN" />
+			<xs:enumeration value="EUR" />
+		</xs:restriction>
+  	</xs:simpleType>
+
+	<xs:simpleType name="type">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="A" />
+			<xs:enumeration value="B" />
+			<xs:enumeration value="C" />
+		</xs:restriction>
+  	</xs:simpleType>
+
+	<xs:simpleType name="bigLetterString">
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[A-Z]([a-z])*"/>
+			</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="bigLetterStringExtra">
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[A-Z0-9]([A-Za-z.+0-9\s])*"/>
+			</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="personalID">
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[0-9]{11}"/>
+			</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ZIPCode">
+    	<xs:restriction base="xs:string">
+   			<xs:pattern value="[0-9][0-9][-][0-9][0-9][0-9]"/>
+    	</xs:restriction>
+	</xs:simpleType>
+
+	<!--
+	<xs:complexType name="DefaultType">
+        <xs:attribute name="kind" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="OtherType">
+        <xs:attribute name="kind" type="xs:string"/>
+    </xs:complexType>
+	-->
+
+  	<xs:simpleType name="id">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="1000000"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="salary">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="2000.00"/>
+			<xs:maxInclusive value="1000000.99"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="stringElem">
+    	<xs:restriction base="xs:string">
+   			<xs:pattern value="([A-Za-z.+0-9\s])*[,]"/>
+    	</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="sizeByNumber">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:maxInclusive value="42"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="sizeByName">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="small"/>
+			<xs:enumeration value="medium"/>
+			<xs:enumeration value="large"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

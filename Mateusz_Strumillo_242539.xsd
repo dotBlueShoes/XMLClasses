@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+xmlns:types="types"
+vc:minVersion="1.1"
+>
+
+	<xs:include schemaLocation="information.xsd"/> <!-- Ta sama przestrzeń nazw - namespace  -->
+	<xs:import namespace="types" schemaLocation="types.xsd"/> <!-- poprzez namespace mówie że w tym miejscu będzie miał inną przestrzeń nazw  -->
+
+	<xs:attributeGroup name="atribEmployee">
+		<xs:attribute name="id" type="types:id" use="required" />
+		<xs:attribute name="position" type="types:position" use="required" />
+		<xs:attribute name="ref-desk" type="types:id" use="required" />
+		<xs:attribute name="isSuspended" type="xs:boolean" use="optional" />
+	</xs:attributeGroup>
+
+	<xs:simpleType name="stringList">
+ 		<xs:list itemType="types:stringElem"/>
+	</xs:simpleType>
+
+	<xs:group name = "elemPC">
+		<xs:sequence>
+			<xs:element name="PC">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="OS" type="types:bigLetterStringExtra" />
+						<xs:element name="Program">
+							<xs:complexType>
+								<xs:all>
+									<xs:element name="Name" type="types:bigLetterStringExtra" />
+									<xs:element name="Version" type="xs:string" />
+									<xs:element name="ReleaseDate" minOccurs="0">
+										<!--
+										<xs:alternative test="@kind='string'" type="OtherType"/>
+										<xs:alternative type="DefaultType"/>
+										-->
+									</xs:element>
+								</xs:all>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="Software" type="stringList"></xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:choice>
+				<xs:element name="Printer" minOccurs="0" />
+				<xs:element name="FaxMachine" minOccurs="0" />
+			</xs:choice>
+			<xs:element name="Scanner" minOccurs="0" />
+		</xs:sequence>
+	</xs:group>
+
+	<xs:element name="GameDevBusiness">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element name="Information" type="tInformation"/>
+
+				<xs:element name="Employees">
+					<xs:complexType>
+						<xs:sequence>
+
+							<xs:element name="Employee" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name" type="types:bigLetterString" />
+										<xs:element name="Surname" type="types:bigLetterString" />
+										<xs:element name="PersonalID">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="types:personalID">
+														<xs:attribute name="nation" type="types:nation" use="required"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DateOfBirth" type="xs:date" />
+										<xs:element name="DateOfEmployment" type="xs:date"/>
+										<xs:element name="ShirtSize" minOccurs="0">
+											<xs:simpleType>
+												<xs:union memberTypes="types:sizeByNumber types:sizeByName" />
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Address">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Country" type="xs:string" />
+													<xs:element name="City" type="types:bigLetterString" />
+													<xs:element name="Street" type="types:bigLetterString" />
+													<xs:element name="Number" type="xs:string" />
+													<xs:element name="ZIPCode" type="types:ZIPCode" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Salary">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="BeforeTax" type="types:salary" />
+													<xs:element name="AfterTax" type="types:salary" />
+												</xs:sequence>
+												<xs:attribute name="currency" type="types:currency" use="required"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="IsTemporary" minOccurs="0" />
+									</xs:sequence>
+									<xs:attributeGroup ref="atribEmployee"/>
+								</xs:complexType>
+								<xs:keyref name="key" refer="deskKey">
+									<xs:selector xpath="GameDevBusiness/Employees/Employee"/>
+									<xs:field xpath="@ref-desk"/>
+								</xs:keyref>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+
+					<xs:key name="deskKey">
+						<xs:selector xpath="GameDevBusiness/Desks/Desk"/>
+						<xs:field xpath="@id"/>
+					</xs:key>
+
+				</xs:element>
+
+				<xs:element name="Desks">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Desk" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:group ref="elemPC"/>
+									<xs:attribute name="id" type="types:id" use="required" />
+									<xs:attribute name="type" type="types:type" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

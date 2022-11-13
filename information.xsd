@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<!--
+	<xs:simpleType name="Date">
+		<xs:restriction base="xs:string">
+		   <xs:pattern value="[0-9][0-9][.][0-9][0-9][.][0-9][0-9][0-9][0-9]"/>
+		</xs:restriction>
+	</xs:simpleType>
+	-->
+
+	<xs:element name="Information" type="tInformation"/>
+
+	<xs:complexType name="tInformation">
+		<xs:sequence>
+			<xs:element name="Autor" type="xs:string" />
+			<xs:element name="Date" type="xs:dateTime" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+</xs:schema>

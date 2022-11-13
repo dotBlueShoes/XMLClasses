@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css"?>
+<GameDevBusiness xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Mateusz_Strumillo_242539.xsd">
+
+	<Information>
+		<Autor>Mateusz Strumiłło 242539</Autor>
+		<Date>2022-11-02T10:20:15</Date>
+	</Information>
+
+	<Employees>
+	
+		<Employee id="1" position="Programmer" ref-desk="1" isSuspended="true"> 	<!-- id: Unikalny, nie pusty klucz, position: Jedna z predefiniowanych nie pustych wartości jak "Programmer" -->
+			<Name>Adam</Name> 														<!-- Ciąg znaków zaczynający się dużą literą (nie pusty) -->
+			<Surname>Nowak</Surname> 												<!-- Ciąg znaków zaczynający się dużą literą (nie pusty) -->
+			<PersonalID nation="Poland">12312312312</PersonalID> 					<!-- Ciąg liczb o rozmiarze 11 liczb -->
+			<DateOfBirth>1995-08-04</DateOfBirth>									<!-- Format daty dd/mm/year -->
+			<DateOfEmployment>2016-11-02</DateOfEmployment> 						<!-- Format daty dd/mm/year -->
+			<ShirtSize>medium</ShirtSize>
+			<Address>
+				<Country>Poland</Country> 											<!-- Ciąg znaków zaczynający się dużą literą (nie pusty) -->
+				<City>Lodz</City> 													<!-- Ciąg znaków zaczynający się dużą literą (nie pusty) -->
+				<Street>Nowa</Street> 												<!-- Ciąg znaków zaczynający się dużą literą (nie pusty) -->
+				<Number>41</Number> 												<!-- Ciąg znaków wrażliwy na wielkość liter (nie pusty) -->
+				<ZIPCode>94-101</ZIPCode> 											<!-- Ciąg 6 znakowy o formacie XX-XXX -->
+			</Address>
+			<Salary currency="PLN"> 												<!-- Jedna z predefiniowanych nie pustych wartości jak "PLN" -->
+				<BeforeTax>2500.00</BeforeTax> 										<!-- Ciąg liczb z 2 cyfrową liczbą zmiennoprzecinkową (nie pusty) -->
+				<AfterTax>2300.25</AfterTax> 										<!-- Ciąg liczb z 2 cyfrową liczbą zmiennoprzecinkową (nie pusty) -->
+			</Salary> 
+			<IsTemporary/>
+		</Employee>
+		
+		<Employee id="2" position="Desiner" ref-desk="2">
+			<Name>Karol</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">32132132132</PersonalID>
+			<DateOfBirth>1998-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Przyszkolna</Street>
+				<Number>26</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="3" position="Programmer" ref-desk="3">
+			<Name>Tomasz</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">33322211132</PersonalID>
+			<DateOfBirth>1997-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<ShirtSize>39</ShirtSize>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Nowoszkolna</Street>
+				<Number>25</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="4" position="Level-Designer" ref-desk="4">
+			<Name>Adrian</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">11122233312</PersonalID>
+			<DateOfBirth>1996-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Przyszkolna</Street>
+				<Number>24</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="5" position="Programmer" ref-desk="5">
+			<Name>Milosz</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">11122233321</PersonalID>
+			<DateOfBirth>1995-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Nowoszkolna</Street>
+				<Number>23</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2500.00</BeforeTax>
+				<AfterTax>2300.25</AfterTax> 
+			</Salary>
+		</Employee>
+
+		<Employee id="6" position="Desiner" ref-desk="6">
+			<Name>Kinga</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">11122233322</PersonalID>
+			<DateOfBirth>1994-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Przyszkolna</Street>
+				<Number>22</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+			<IsTemporary/>
+		</Employee>
+
+		<Employee id="7" position="Desiner" ref-desk="7">
+			<Name>Filip</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">11122233323</PersonalID>
+			<DateOfBirth>1993-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Przyszkolna</Street>
+				<Number>26</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="8" position="Programmer" ref-desk="8">
+			<Name>Arek</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">12345678912</PersonalID>
+			<DateOfBirth>1993-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Nowoszkolna</Street>
+				<Number>21</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2500.00</BeforeTax>
+				<AfterTax>2300.25</AfterTax> 
+			</Salary>
+		</Employee>
+
+		<Employee id="9" position="Desiner" ref-desk="9">
+			<Name>Ola</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">98765432112</PersonalID>
+			<DateOfBirth>1992-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Przyszkolna</Street>
+				<Number>19</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="10" position="Desiner" ref-desk="10">
+			<Name>Wojtek</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">99988877712</PersonalID>
+			<DateOfBirth>1992-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Nowoszkolna</Street>
+				<Number>26</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="11" position="Programmer" ref-desk="11">
+			<Name>Kuba</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">77889966111</PersonalID>
+			<DateOfBirth>1998-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Przyszkolna</Street>
+				<Number>18</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="12" position="Desiner" ref-desk="12">
+			<Name>Karol</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">44411144421</PersonalID>
+			<DateOfBirth>1998-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<ShirtSize>large</ShirtSize>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Nowoszkolna</Street>
+				<Number>26</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2500.00</BeforeTax>
+				<AfterTax>2300.25</AfterTax> 
+			</Salary>
+		</Employee>
+
+		<Employee id="13" position="Programmer" ref-desk="13">
+			<Name>Rafal</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">77766655511</PersonalID>
+			<DateOfBirth>1991-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Przyszkolna</Street>
+				<Number>17</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="14" position="Desiner" ref-desk="14">
+			<Name>Maciek</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">55556664441</PersonalID>
+			<DateOfBirth>1991-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Nowoszkolna</Street>
+				<Number>16</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="15" position="Level-Designer" ref-desk="15">
+			<Name>Macko</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">86786758581</PersonalID>
+			<DateOfBirth>1995-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Przyszkolna</Street>
+				<Number>15</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2500.00</BeforeTax>
+				<AfterTax>2300.25</AfterTax> 
+			</Salary>
+		</Employee>
+
+		<Employee id="16" position="Desiner" ref-desk="16">
+			<Name>Mandaryn</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">23621626312</PersonalID>
+			<DateOfBirth>1995-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Nowoszkolna</Street>
+				<Number>14</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2500.00</BeforeTax>
+				<AfterTax>2300.25</AfterTax> 
+			</Salary>
+		</Employee>
+
+		<Employee id="17" position="Desiner" ref-desk="17">
+			<Name>Xi</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">23612345312</PersonalID>
+			<DateOfBirth>1992-05-13</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<ShirtSize>small</ShirtSize>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Przyszkolna</Street>
+				<Number>26</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="18" position="Programmer" ref-desk="18">
+			<Name>Bartek</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">12345626312</PersonalID>
+			<DateOfBirth>1111-11-11</DateOfBirth>
+			<DateOfEmployment>2020-12-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Nowoszkolna</Street>
+				<Number>26</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+		</Employee>
+
+		<Employee id="19" position="Programmer" ref-desk="19">
+			<Name>Krystian</Name>
+			<Surname>Nowak</Surname>
+			<PersonalID nation="Poland">34582378983</PersonalID>
+			<DateOfBirth>1998-05-13</DateOfBirth>
+			<DateOfEmployment>1234-11-01</DateOfEmployment>
+			<Address>
+				<Country>Poland</Country>
+				<City>Warszawa</City>
+				<Street>Przyszkolna</Street>
+				<Number>13</Number>
+				<ZIPCode>95-505</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2500.00</BeforeTax>
+				<AfterTax>2300.25</AfterTax> 
+			</Salary>
+		</Employee>
+
+		<Employee id="20" position="Programmer" ref-desk="20">
+			<Name>Piotr</Name>
+			<Surname>Kowalski</Surname>
+			<PersonalID nation="Poland">69473923639</PersonalID>
+			<DateOfBirth>2000-05-13</DateOfBirth>
+			<DateOfEmployment>2022-12-01</DateOfEmployment>
+			<Address>
+				<Country>UK</Country>
+				<City>London</City>
+				<Street>Nowoszkolna</Street>
+				<Number>12</Number>
+				<ZIPCode>91-045</ZIPCode>
+			</Address>
+			<Salary currency="PLN">
+				<BeforeTax>2400.00</BeforeTax>
+				<AfterTax>2250.50</AfterTax>
+			</Salary>
+			<IsTemporary/>
+		</Employee>
+		
+	</Employees>
+	
+	<Desks>
+	
+		<Desk id="1" type="A">					<!-- id: Unikalny, nie pusty klucz, type: Jedna z predefiniowanych nie pustych wartości jak "A" -->
+			<PC>
+				<OS>Windows 10</OS>				<!-- Ciąg znaków rozpoczynający się dużą literą i wrażliwy na wielkość liter (nie pusty) -->
+				<Program>
+					<Name>Visual Studio</Name>			<!-- Ciąg znaków rozpoczynający się dużą literą i wrażliwy na wielkość liter (nie pusty) -->
+					<Version>2022.1.1</Version>	<!-- Ciąg znaków wrażliwy na wielkość liter -->
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+			<Scanner/>
+		</Desk>
+		
+		<Desk id="2" type="B">
+			<PC>
+				<OS>Ubuntu 22.04.1 LTS</OS>
+				<Program>
+					<Version>2021.1.1</Version>
+					<ReleaseDate kind="string">2021.1.1</ReleaseDate>
+					<Name>CLion</Name>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="3" type="A">
+			<PC>
+				<OS>Windows 95</OS>
+				<Program>
+					<Name>CLion</Name>
+					<ReleaseDate>September</ReleaseDate>
+					<Version>2020.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+		</Desk>
+
+		<Desk id="4" type="B">
+			<PC>
+				<OS>Windows 10</OS>
+				<Program>
+					<Name>Notepad++</Name>
+					<Version>2019.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="5" type="B">
+			<PC>
+				<OS>Windows 7</OS>
+				<Program>
+					<Name>Visual Studio Code</Name>
+					<Version>2018.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+			<Scanner/>
+		</Desk>
+
+		<Desk id="6" type="B">
+			<PC>
+				<OS>Windows 7</OS>
+				<Program>
+					<Name>CLion</Name>
+					<Version>2017.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<FaxMachine/>
+		</Desk>
+
+		<Desk id="7" type="B">
+			<PC>
+				<OS>Windows 10</OS>
+				<Program>
+					<Name>CLion</Name>
+					<Version>2016.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+		</Desk>
+
+		<Desk id="8" type="A">
+			<PC>
+				<OS>Windows Vista</OS>
+				<Program>
+					<Name>CLion</Name>
+					<Version>2015.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="9" type="B">
+			<PC>
+				<OS>Windows 10</OS>
+				<Program>
+					<Name>Visual Studio</Name>
+					<Version>2014.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<FaxMachine/>
+			<Scanner/>
+		</Desk>
+
+		<Desk id="10" type="A">
+			<PC>
+				<OS>Windows 10</OS>
+				<Program>
+					<Name>Visual Studio</Name>
+					<Version>2013.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="11" type="B">
+			<PC>
+				<OS>Windows XP</OS>
+				<Program>
+					<Name>Visual Studio Code</Name>
+					<Version>2012.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="12" type="A">
+			<PC>
+				<OS>Windows 10</OS>
+				<Program>
+					<Name>Notepad</Name>
+					<Version>2011.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Scanner/>
+		</Desk>
+
+		<Desk id="13" type="B">
+			<PC>
+				<OS>Windows 10</OS>
+				<Program>
+					<Name>Notepad++</Name>
+					<Version>2010.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="14" type="A">
+			<PC>
+				<OS>Ubuntu 22.04.1 LTS</OS>
+				<Program>
+					<Name>Notepad++</Name>
+					<Version>2009.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="15" type="B">
+			<PC>
+				<OS>Ubuntu 22.04.1 LTS</OS>
+				<Program>
+					<Name>CLion</Name>
+					<Version>2008.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<FaxMachine/>
+			<Scanner/>
+		</Desk>
+
+		<Desk id="16" type="A">
+			<PC>
+				<OS>Ubuntu 22.04.1 LTS</OS>
+				<Program>
+					<Name>CLion</Name>
+					<Version>2007.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="17" type="B">
+			<PC>
+				<OS>Windows NEXT</OS>
+				<Program>
+					<Name>Notepad++</Name>
+					<Version>2005.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Scanner/>
+		</Desk>
+
+		<Desk id="18" type="A">
+			<PC>
+				<OS>Windows 10</OS>
+				<Program>
+					<Name>Visual Studio</Name>
+					<Version>2004.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+		</Desk>
+
+		<Desk id="19" type="B">
+			<PC>
+				<OS>Windows 11</OS>
+				<Program>
+					<Name>Visual Studio</Name>
+					<Version>2003.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<Printer/>
+			<Scanner/>
+		</Desk>
+
+		<Desk id="20" type="A">
+			<PC>
+				<OS>Windows 11</OS>
+				<Program>
+					<Name>Visual Studio</Name>
+					<Version>2001.1.1</Version>
+				</Program>
+				<Software>Paint, Gimp, Office,</Software>
+			</PC>
+			<FaxMachine/>
+		</Desk>
+		
+	</Desks>
+	
+</GameDevBusiness>

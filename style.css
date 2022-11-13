@@ -1,0 +1,215 @@
+GameDevBusiness {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	background-color: #000000;
+	color: #dddddd;
+}
+
+/* INFORMATION */
+
+Information {
+	display: block;
+	margin: 50px;
+}
+
+Autor::before {
+	color: #999999;
+	font-size: 12px;
+
+	content: "Autor: ";
+}
+
+Date::before {
+	color: #999999;
+	font-size: 12px;
+
+	content: "Date: ";
+}
+
+/* EMPLOYEES */
+
+Employees {
+	background-color: #141313;
+
+	display: table;
+	margin: 50px;
+
+	border: 1px solid #ffffff;
+
+	counter-reset: pseudoListNumbering;
+}
+
+Employees::before {
+	position: absolute;
+	translate: 0px -20px;
+	display: block;
+	content: "Employees";
+}
+
+Employee {
+	display: table-row;
+    list-style-type: decimal;
+}
+
+Employee::before {
+    counter-increment: pseudoListNumbering;
+    content: counter(pseudoListNumbering, decimal-leading-zero)": ";
+	
+	display: table-cell;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+Employee:nth-child(2n) {
+	background-color: #1b1a1a;
+}
+
+Employee:hover {
+	background-color: #343a57;
+}
+
+Employee > * {
+	display: table-cell;
+	padding: 5px;
+
+	border: 1px solid #000000;
+}
+
+Employee > *:hover {
+	background-color: #394ba1;
+}
+
+IsTemporary {
+	border-left: 0px;
+}
+
+IsTemporary::before {
+	content: "Marked As Temporary!";
+}
+
+PersonalID[nation=Poland]::before {
+
+	font-style: italic;
+	color: #bbbbbb;
+	font-size: 12px;
+
+	content: "Polish ID: ";
+}
+
+Salary[currency=PLN]::before {
+
+	font-style: italic;
+	color: #bbbbbb;
+	font-size: 12px;
+
+	content: "PLN: ";
+}
+
+Employee > * > *:first-child {
+	border: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+Employee > * > * {
+	border-left: 1px dotted #ffffff;
+	padding-left: 3px;
+	margin-left: 1px;
+}
+
+AfterTax::before {
+
+	color: #999999;
+	font-size: 12px;
+
+	content: "After tax: ";
+}
+
+/* DESKS */
+
+Desks {
+	background-color: #141313;
+
+	display: table;
+	margin: 50px;
+
+	border: 1px solid #ffffff;
+
+	counter-reset: pseudoListNumbering;
+}
+
+Desks::before {
+	position: absolute;
+	translate: 0px -20px;
+	display: block;
+	content: "Desks";
+}
+
+Desk {
+	display: table-row;
+    list-style-type: decimal;
+}
+
+Desk::before {
+    counter-increment: pseudoListNumbering;
+    content: counter(pseudoListNumbering, decimal-leading-zero)": ";
+	
+	display: table-cell;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+Desk:nth-child(2n) {
+	background-color: #1b1a1a;
+}
+
+Desk:hover {
+	background-color: #343a57;
+}
+
+Desk[type=A]::before {
+	content: counter(pseudoListNumbering, decimal-leading-zero)" A: ";
+}
+
+Desk[type=B]::before {
+	content: counter(pseudoListNumbering, decimal-leading-zero)" B: ";
+}
+
+Desk > * {
+	display: table-cell;
+	padding: 5px;
+
+	border: 1px solid #000000;
+}
+
+Desk > *:hover {
+	background-color: #394ba1;
+}
+
+Printer {
+	border-left: 0px;
+}
+
+Printer::before {
+	content: "Has Printer";
+}
+
+Scanner {
+	border-left: 0px;
+}
+
+Scanner::before {
+	content: "Has Scanner";
+}
+
+Desk > * > *:first-child {
+	border: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+Desk > * > * > * {
+	border-left: 1px dotted #bbbbbb;
+	padding-left: 3px;
+	margin-left: 1px;
+}

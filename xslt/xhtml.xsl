@@ -2,16 +2,21 @@
 
 <!-- 
 	[ Dokument XHTML ]
+	// DONE
 	- Oprócz użycia tego formatu należy także wziąć pod uwagę zalecenia dotyczące 
 		dostępności stron HTML: Web Content Accessibility Guidelines.
+	// DONE
 	- Elementy, na które będzie zwracana szczególna uwaga:
 		* walidacja dokumentu jako XHTML 1.0 Strict, np. w usłudze walidacji W3C
 		* użycie opisów i/lub tekstu zastępczego dla wszystkich elementów wizualnych, 
 			które inaczej nie byłyby dostępne np. dla użytkowników niewidzących.
 
 	[XHTML]
+	// DONE
 	- XHTML waliduje się
+	// DONE
 	- wykorzystano elementy CSS
+	// DONE
 	- poprawnie użyto opisów i/lub tekst zastępczy
  -->
 
@@ -26,6 +31,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 			<head>
                 <title>GameDevBusiness</title>
+				<link rel="stylesheet" href="../css/xhtml-style.css"></link>
             </head>
 
 			<body>
@@ -109,6 +115,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                         <td><xsl:value-of select="Raport/Devices/FaxMachineCount"/></td>
                     </tr>
                 </table>
+
+				<p>
+					<img src="../img/computer.png" alt="This is a PC" width="500" height="500"></img>
+				</p>
 
 			</body>
 

@@ -1,0 +1,22 @@
+body {
+	background-color: #000000;
+	color: #dddddd;
+}
+
+table {
+	border: 1px solid white;
+	margin: 20px auto 0 auto;
+	background-color: #111118;
+}
+
+td:hover {
+	background-color: #181821;
+}
+
+img {
+	position: absolute;
+	display: block;
+	left: 100px;
+    top: 100px;
+	z-index: -1;
+}

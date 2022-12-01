@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="style.css"?>
+<!-- <?xml-stylesheet type="text/xsl" href="xslt/helper.xsl"?> -->
 <GameDevBusiness xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="Mateusz_Strumillo_242539.xsd">
 
@@ -84,8 +85,8 @@
 				<ZIPCode>95-505</ZIPCode>
 			</Address>
 			<Salary currency="PLN">
-				<BeforeTax>2400.00</BeforeTax>
-				<AfterTax>2250.50</AfterTax>
+				<BeforeTax>1400.00</BeforeTax>
+				<AfterTax>1250.50</AfterTax>
 			</Salary>
 		</Employee>
 
@@ -103,8 +104,8 @@
 				<ZIPCode>91-045</ZIPCode>
 			</Address>
 			<Salary currency="PLN">
-				<BeforeTax>2500.00</BeforeTax>
-				<AfterTax>2300.25</AfterTax> 
+				<BeforeTax>1500.00</BeforeTax>
+				<AfterTax>1300.25</AfterTax> 
 			</Salary>
 		</Employee>
 
@@ -238,8 +239,8 @@
 				<ZIPCode>91-045</ZIPCode>
 			</Address>
 			<Salary currency="PLN">
-				<BeforeTax>2500.00</BeforeTax>
-				<AfterTax>2300.25</AfterTax> 
+				<BeforeTax>500.00</BeforeTax>
+				<AfterTax>300.25</AfterTax> 
 			</Salary>
 		</Employee>
 
@@ -314,8 +315,8 @@
 				<ZIPCode>95-505</ZIPCode>
 			</Address>
 			<Salary currency="PLN">
-				<BeforeTax>2500.00</BeforeTax>
-				<AfterTax>2300.25</AfterTax> 
+				<BeforeTax>500.00</BeforeTax>
+				<AfterTax>300.25</AfterTax> 
 			</Salary>
 		</Employee>
 

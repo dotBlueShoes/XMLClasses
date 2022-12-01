@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Raport>
+   <Employees>
+      <Employee>
+         <Name Id="23612345312">Xi Nowak</Name>
+         <Address>UK London Przyszkolna 26</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows NEXT</OS>
+            <Software>Notepad++ 2005.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="99988877712">Wojtek Kowalski</Name>
+         <Address>UK London Nowoszkolna 26</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows 10</OS>
+            <Software>Visual Studio 2013.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="33322211132">Tomasz Nowak</Name>
+         <Address>Poland Warszawa Nowoszkolna 25</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows 95</OS>
+            <Software>CLion 2020.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="77766655511">Rafal Nowak</Name>
+         <Address>Poland Warszawa Przyszkolna 17</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows 10</OS>
+            <Software>Notepad++ 2010.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="69473923639">Piotr Kowalski</Name>
+         <Address>UK London Nowoszkolna 12</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows 11</OS>
+            <Software>Visual Studio 2001.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="98765432112">Ola Nowak</Name>
+         <Address>UK London Przyszkolna 19</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows 10</OS>
+            <Software>Visual Studio 2014.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="11122233321">Milosz Nowak</Name>
+         <Address>UK London Nowoszkolna 23</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen1000">1300.25</Salary>
+         <Desk>
+            <OS>Windows 7</OS>
+            <Software>Visual Studio Code 2018.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="23621626312">Mandaryn Kowalski</Name>
+         <Address>Poland Warszawa Nowoszkolna 14</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen0000">300.25</Salary>
+         <Desk>
+            <OS>Ubuntu 22.04.1 LTS</OS>
+            <Software>CLion 2007.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="86786758581">Macko Nowak</Name>
+         <Address>UK London Przyszkolna 15</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2300.25</Salary>
+         <Desk>
+            <OS>Ubuntu 22.04.1 LTS</OS>
+            <Software>CLion 2008.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="55556664441">Maciek Kowalski</Name>
+         <Address>Poland Warszawa Nowoszkolna 16</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Ubuntu 22.04.1 LTS</OS>
+            <Software>Notepad++ 2009.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="77889966111">Kuba Nowak</Name>
+         <Address>UK London Przyszkolna 18</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows XP</OS>
+            <Software>Visual Studio Code 2012.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="34582378983">Krystian Nowak</Name>
+         <Address>Poland Warszawa Przyszkolna 13</Address>
+         <Employment>Old</Employment>
+         <Salary estimated="GreaterThen2000">2300.25</Salary>
+         <Desk>
+            <OS>Windows 11</OS>
+            <Software>Visual Studio 2003.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="11122233322">Kinga Kowalski</Name>
+         <Address>Poland Warszawa Przyszkolna 22</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows 7</OS>
+            <Software>CLion 2017.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="32132132132">Karol Kowalski</Name>
+         <Address>Poland Warszawa Przyszkolna 26</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Ubuntu 22.04.1 LTS</OS>
+            <Software>CLion 2021.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="44411144421">Karol Kowalski</Name>
+         <Address>UK London Nowoszkolna 26</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen0000">300.25</Salary>
+         <Desk>
+            <OS>Windows 10</OS>
+            <Software>Notepad 2011.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="11122233323">Filip Nowak</Name>
+         <Address>Poland Warszawa Przyszkolna 26</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows 10</OS>
+            <Software>CLion 2016.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="12345626312">Bartek Kowalski</Name>
+         <Address>Poland Warszawa Nowoszkolna 26</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2250.50</Salary>
+         <Desk>
+            <OS>Windows 10</OS>
+            <Software>Visual Studio 2004.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="12345678912">Arek Kowalski</Name>
+         <Address>UK London Nowoszkolna 21</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen2000">2300.25</Salary>
+         <Desk>
+            <OS>Windows Vista</OS>
+            <Software>CLion 2015.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="11122233312">Adrian Kowalski</Name>
+         <Address>Poland Warszawa Przyszkolna 24</Address>
+         <Employment>New</Employment>
+         <Salary estimated="GreaterThen1000">1250.50</Salary>
+         <Desk>
+            <OS>Windows 10</OS>
+            <Software>Notepad++ 2019.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+      <Employee>
+         <Name Id="12312312312">Adam Nowak</Name>
+         <Address>Poland Lodz Nowa 41</Address>
+         <Employment>Old</Employment>
+         <Salary estimated="GreaterThen2000">2300.25</Salary>
+         <Desk>
+            <OS>Windows 10</OS>
+            <Software>Visual Studio 2022.1.1, Paint, Gimp, Office,</Software>
+         </Desk>
+      </Employee>
+   </Employees>
+   <CreationDate>01-12-2022</CreationDate>
+   <BeforeTaxSum>42700</BeforeTaxSum>
+   <AfterTaxSum>39358.25</AfterTaxSum>
+   <Emloyees>
+      <Count>20</Count>
+      <ProgrammerCount>9</ProgrammerCount>
+      <DesignerCount>9</DesignerCount>
+      <LevelDesignerCount>2</LevelDesignerCount>
+   </Emloyees>
+   <Desks>
+      <Count>20</Count>
+      <TypeACount>9</TypeACount>
+      <TypeBCount>11</TypeBCount>
+   </Desks>
+   <Devices>
+      <PrinterCount>12</PrinterCount>
+      <ScannerCount>7</ScannerCount>
+      <FaxMachineCount>4</FaxMachineCount>
+   </Devices>
+</Raport>

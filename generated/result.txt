@@ -1,0 +1,21 @@
+------------------|-------------------------------|----|--------|-------------------|--------------------------------------------------|
+Xi Nowak          |UK London Przyszkolna 26       |New |2250.50 |Windows NEXT       |Notepad++ 2005.1.1, Paint, Gimp, Office,          |
+Wojtek Kowalski   |UK London Nowoszkolna 26       |New |2250.50 |Windows 10         |Visual Studio 2013.1.1, Paint, Gimp, Office,      |
+Tomasz Nowak      |Poland Warszawa Nowoszkolna 25 |New |2250.50 |Windows 95         |CLion 2020.1.1, Paint, Gimp, Office,              |
+Rafal Nowak       |Poland Warszawa Przyszkolna 17 |New |2250.50 |Windows 10         |Notepad++ 2010.1.1, Paint, Gimp, Office,          |
+Piotr Kowalski    |UK London Nowoszkolna 12       |New |2250.50 |Windows 11         |Visual Studio 2001.1.1, Paint, Gimp, Office,      |
+Ola Nowak         |UK London Przyszkolna 19       |New |2250.50 |Windows 10         |Visual Studio 2014.1.1, Paint, Gimp, Office,      |
+Milosz Nowak      |UK London Nowoszkolna 23       |New |1300.25 |Windows 7          |Visual Studio Code 2018.1.1, Paint, Gimp, Office, |
+Mandaryn Kowalski |Poland Warszawa Nowoszkolna 14 |New |300.25  |Ubuntu 22.04.1 LTS |CLion 2007.1.1, Paint, Gimp, Office,              |
+Macko Nowak       |UK London Przyszkolna 15       |New |2300.25 |Ubuntu 22.04.1 LTS |CLion 2008.1.1, Paint, Gimp, Office,              |
+Maciek Kowalski   |Poland Warszawa Nowoszkolna 16 |New |2250.50 |Ubuntu 22.04.1 LTS |Notepad++ 2009.1.1, Paint, Gimp, Office,          |
+Kuba Nowak        |UK London Przyszkolna 18       |New |2250.50 |Windows XP         |Visual Studio Code 2012.1.1, Paint, Gimp, Office, |
+Krystian Nowak    |Poland Warszawa Przyszkolna 13 |Old |2300.25 |Windows 11         |Visual Studio 2003.1.1, Paint, Gimp, Office,      |
+Kinga Kowalski    |Poland Warszawa Przyszkolna 22 |New |2250.50 |Windows 7          |CLion 2017.1.1, Paint, Gimp, Office,              |
+Karol Kowalski    |Poland Warszawa Przyszkolna 26 |New |2250.50 |Ubuntu 22.04.1 LTS |CLion 2021.1.1, Paint, Gimp, Office,              |
+Karol Kowalski    |UK London Nowoszkolna 26       |New |300.25  |Windows 10         |Notepad 2011.1.1, Paint, Gimp, Office,            |
+Filip Nowak       |Poland Warszawa Przyszkolna 26 |New |2250.50 |Windows 10         |CLion 2016.1.1, Paint, Gimp, Office,              |
+Bartek Kowalski   |Poland Warszawa Nowoszkolna 26 |New |2250.50 |Windows 10         |Visual Studio 2004.1.1, Paint, Gimp, Office,      |
+Arek Kowalski     |UK London Nowoszkolna 21       |New |2300.25 |Windows Vista      |CLion 2015.1.1, Paint, Gimp, Office,              |
+Adrian Kowalski   |Poland Warszawa Przyszkolna 24 |New |1250.50 |Windows 10         |Notepad++ 2019.1.1, Paint, Gimp, Office,          |
+Adam Nowak        |Poland Lodz Nowa 41            |Old |2300.25 |Windows 10         |Visual Studio 2022.1.1, Paint, Gimp, Office,      |

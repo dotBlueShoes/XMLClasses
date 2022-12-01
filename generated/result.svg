@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<svg width="1800" height="2000" xmlns="http://www.w3.org/2000/svg">
+<rect x="20" y="20" width="1220" height="230.025" style="fill:rgb(163,163,163);stroke-width:1;stroke:rgb(0,0,0)" />
+<rect x="40" y="220" width="30" height="30.025" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="30" y="290.025" fill="black">300.25</text>
+<rect x="100" y="220" width="30" height="30.025" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="90" y="290.025" fill="black">300.25</text>
+<rect x="160" y="124.97500000000001" width="30" height="125.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="150" y="290.025" fill="black">1250.50</text>
+<rect x="220" y="120" width="30" height="130.025" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="210" y="290.025" fill="black">1300.25</text>
+<rect x="280" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="270" y="290.025" fill="black">2250.50</text>
+<rect x="340" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="330" y="290.025" fill="black">2250.50</text>
+<rect x="400" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="390" y="290.025" fill="black">2250.50</text>
+<rect x="460" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="450" y="290.025" fill="black">2250.50</text>
+<rect x="520" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="510" y="290.025" fill="black">2250.50</text>
+<rect x="580" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="570" y="290.025" fill="black">2250.50</text>
+<rect x="640" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="630" y="290.025" fill="black">2250.50</text>
+<rect x="700" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="690" y="290.025" fill="black">2250.50</text>
+<rect x="760" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="750" y="290.025" fill="black">2250.50</text>
+<rect x="820" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="810" y="290.025" fill="black">2250.50</text>
+<rect x="880" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="870" y="290.025" fill="black">2250.50</text>
+<rect x="940" y="24.974999999999994" width="30" height="225.05" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="930" y="290.025" fill="black">2250.50</text>
+<rect x="1000" y="20" width="30" height="230.025" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="990" y="290.025" fill="black">2300.25</text>
+<rect x="1060" y="20" width="30" height="230.025" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="1050" y="290.025" fill="black">2300.25</text>
+<rect x="1120" y="20" width="30" height="230.025" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="1110" y="290.025" fill="black">2300.25</text>
+<rect x="1180" y="20" width="30" height="230.025" style="fill:rgb(0,127,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="1170" y="290.025" fill="black">2300.25</text>
+<text x="40" y="40" fill="black">Salary</text>
+<rect x="20" y="320" width="1220" height="90" style="fill:rgb(163,163,163);stroke-width:1;stroke:rgb(0,0,0)" />
+<rect x="40" y="320" width="30" height="90" style="fill:rgb(127,0,0);stroke-width:1;stroke:rgb(0,0,0)" />
+<rect x="100" y="320" width="30" height="90" style="fill:rgb(0,127,0);stroke-width:1;stroke:rgb(0,0,0)" />
+<rect x="160" y="390" width="30" height="20" style="fill:rgb(0,0,127);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="50" y="450" fill="black">9</text>
+<text x="110" y="450" fill="black">9</text>
+<text x="170" y="450" fill="black">2</text>
+<text x="40" y="340" fill="black">Employees</text>
+<rect x="20" y="480" width="1220" height="120" style="fill:rgb(163,163,163);stroke-width:1;stroke:rgb(0,0,0)" />
+<rect x="40" y="480" width="30" height="120" style="fill:rgb(191,0,0);stroke-width:1;stroke:rgb(0,0,0)" />
+<rect x="100" y="530" width="30" height="70" style="fill:rgb(0,191,0);stroke-width:1;stroke:rgb(0,0,0)" />
+<rect x="160" y="560" width="30" height="40" style="fill:rgb(0,0,191);stroke-width:1;stroke:rgb(0,0,0)" />
+<text x="50" y="640" fill="black">12</text>
+<text x="110" y="640" fill="black">7</text>
+<text x="170" y="640" fill="black">4</text>
+<text x="40" y="500" fill="black">Devices</text>
+</svg>

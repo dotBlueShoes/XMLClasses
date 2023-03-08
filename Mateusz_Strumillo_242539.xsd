@@ -51,6 +51,36 @@ vc:minVersion="1.1"
 			<xs:element name="Scanner" minOccurs="0" />
 		</xs:sequence>
 	</xs:group>
+	
+	// 2. name="Name" type="types:bigLetterString"
+	// 3. name="Surname" type="types:bigLetterString"
+	// 4. name="PersonalID" base="types:personalID"
+	// 5. name="DateOfBirth" type="xs:date" 
+	// 6. name="DateOfEmployment" type="xs:date"
+	// 7. name="ShirtSize" minOccurs="0" memberTypes="types:sizeByNumber types:sizeByName"
+	// 8. name="Address"
+	// 	<xs:sequence>
+	//  	<xs:element name="Country" type="xs:string" />
+	//  	<xs:element name="City" type="types:bigLetterString" />
+	//  	<xs:element name="Street" type="types:bigLetterString" />
+	//  	<xs:element name="Number" type="xs:string" />
+	//  	<xs:element name="ZIPCode" type="types:ZIPCode" />
+	//  </xs:sequence>
+	// 9. name="Salary"
+	// <xs:sequence>
+	// <xs:element name="BeforeTax" type="types:salary" />
+	// <xs:element name="AfterTax" type="types:salary" />
+	// </xs:sequence>
+	// 10. <xs:attribute name="currency" type="types:currency" use="required"/>
+	// 11. <xs:element name="IsTemporary" minOccurs="0" />
+	// 12. <xs:attributeGroup ref="atribEmployee"/>
+	// 13.
+	// <xs:keyref name="key" refer="deskKey">
+	// <xs:selector xpath="GameDevBusiness/Employees/Employee"/>
+	// <xs:field xpath="@ref-desk"/>
+	// </xs:keyref>
+	
+	// 14. DESKS ....
 
 	<xs:element name="GameDevBusiness">
 		<xs:complexType>
